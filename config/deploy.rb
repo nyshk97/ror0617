@@ -5,6 +5,10 @@ set :application, "sample_ror0617"
 set :repo_url, "git@github.com:nyshk97/ror0617.git"
 set :deploy_to, "/var/www/html/namatsuba"
 
+set :rbenv_type, :system
+set :rbenv_ruby, '2.7.1'
+set :rbenv_path, '/usr/local/rbenv'
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
